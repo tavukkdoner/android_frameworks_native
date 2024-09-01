@@ -1295,7 +1295,7 @@ private:
     } mVirtualDisplayIdGenerators;
 
     std::atomic_uint mDebugFlashDelay = 0;
-    std::atomic_bool mDebugDisableHWC = false;
+    std::atomic_bool mDebugDisableHWC = true;
     std::atomic_bool mDebugDisableTransformHint = false;
     std::atomic<nsecs_t> mDebugInTransaction = 0;
     std::atomic_bool mForceFullDamage = false;
